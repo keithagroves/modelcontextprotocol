@@ -6,17 +6,7 @@ title: Skills
 
 <Info>**Protocol Revision**: draft</Info>
 
-The Model Context Protocol (MCP) allows servers to expose skills that can be discovered and loaded by language models. Skills provide structured instructions, workflows, and domain expertise that help models perform tasks more accurately and efficiently. Each skill is uniquely identified by a name and includes metadata describing its purpose and contents.
-
-## Overview
-
-A skill is a package containing:
-
-* **Metadata**: Name and description (loaded at startup for all skills)
-* **Instructions**: Markdown content explaining how to perform a task (loaded on activation)
-* **Resources**: Optional scripts, references, and assets (loaded as needed)
-
-This structure enables **progressive disclosure**—agents load minimal metadata upfront, full instructions when relevant, and additional resources only when required.
+The Model Context Protocol (MCP) allows servers to expose skills that can be discovered and loaded by language models. Skills provide structured instructions, workflows, and domain expertise that help models perform tasks more accurately and efficiently. Each skill is uniquely identified by a name and includes metadata describing its purpose and contents. Skills support **progressive disclosure**—clients load minimal metadata upfront, full instructions when relevant, and additional resources only when required.
 
 ## User Interaction Model
 
