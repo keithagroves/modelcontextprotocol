@@ -314,6 +314,7 @@
                   "specification/draft/server/index",
                   "specification/draft/server/prompts",
                   "specification/draft/server/resources",
+                  "specification/draft/server/skills",
                   "specification/draft/server/tools",
                   {
                     "group": "Utilities",
